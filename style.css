@@ -665,7 +665,7 @@ padding-left: 75px;
         margin-left: 120px;
     }
 }
-@media (max-width:768px){
+@media (max-width:480px){
     .p2-wrap{
         margin-left: 225px;
         flex-direction: column;
