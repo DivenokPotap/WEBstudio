@@ -752,3 +752,91 @@ padding-left: 75px;
         margin-left: 110px;
     }
 }
+@media (max-width:320px){
+    .p2-wrap{
+        margin-left: -5px;
+        flex-direction: column;
+        gap: 5px;
+        position: absolute;
+        font-size: 12px;
+        top: 30px;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .p1-wrap{
+        font-size: 15px;
+        margin-right: 150px;
+    }
+    .p1-wrap .el1{
+        display: none;
+    }
+    .p1-wrap .tex1{
+        display: none;
+    }
+    .p1-wrap .tex2{
+        display: none;
+    }
+    .p1-wrap .underline{
+        display: none;
+    }
+    .sec2-wrap{
+        margin-left: -150px;
+        flex-direction: column;
+    }
+    .down{
+        margin-top: 325px;
+    }
+    .dec{
+        font-size: 20px;
+        margin-left: -15px;
+    }
+    .sec3-wrap{
+        display: none;
+    }
+    .sec4-wrap{
+        height: 2100px;
+        margin-top: 350px;
+    }
+    .img1{
+        flex-direction: column;
+    }
+    .down1{
+        margin-top: 550px;
+    }
+    .orderweb{
+        margin-left: 50px;
+    }
+    .img1{
+        margin-left: -100px;
+    }
+    .ig{
+        margin-left: 65px;
+    }
+    .nav2{
+        margin-left: 760px;
+    }
+    .text22{
+        margin-left: 90px;
+    }
+    .section8{
+        margin-left: -675px;
+    }
+    .modal-content{
+        margin-left: -104px;
+        scale: 60%;
+    }
+    .footer{
+        flex-direction: column;
+        height: 400px;
+    }
+    .footer div{
+        margin-left: 10px;
+    }
+    .footer .soc{
+        margin-left: -10px;
+    }
+    .footer .great{
+        margin-left: 40px;
+    }
+}
