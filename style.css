@@ -823,8 +823,10 @@ padding-left: 75px;
         margin-left: -675px;
     }
     .modal-content{
-        margin-left: -104px;
-        scale: 60%;
+        margin-left: -25px;
+        position: absolute;
+        top: -175px;
+        scale: 85%;
     }
     .footer{
         flex-direction: column;
