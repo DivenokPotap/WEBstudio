@@ -665,7 +665,28 @@ padding-left: 75px;
         margin-left: 120px;
     }
 }
+@media (min-width:481px){
+   .burger{
+    display: none;
+   }
+}
 @media (max-width:480px){
+    .p2-wrap.active{
+        display: block;
+    }
+    .p2-wrap{
+        display: none;
+        left: 15px;
+        margin-top: 45px;
+        position: absolute;
+        background-color: white;
+        width: 180px;
+        height: 75px;
+        padding: 10px 10px 10px 10px;
+    }
+    .burger{
+        margin-left: 120px;
+    }
     .p2-wrap{
         margin-left: 225px;
         flex-direction: column;
@@ -701,7 +722,7 @@ padding-left: 75px;
         margin-top: 325px;
     }
     .dec{
-        font-size: 30px;
+        font-size: 25px;
     }
     .sec3-wrap{
         display: none;
@@ -753,13 +774,24 @@ padding-left: 75px;
     }
 }
 @media (max-width:420px){
+    .p2-wrap.active{
+        display: block;
+    }
+    .burger{
+        margin-left: 40px;
+    }
     .p2-wrap{
-        margin-left: 50px;
+        display: none;
+        left: -25px;
+        margin-top: 40px;
+        position: absolute;
+        background-color: white;
+        width: 180px;
+        height: 75px;
+        padding: 15px 15px 15px 25px;
         flex-direction: column;
         gap: 5px;
-        position: absolute;
         font-size: 12px;
-        top: 30px;
     }
     .logo{
         margin-left: 50px;
@@ -814,13 +846,13 @@ padding-left: 75px;
         margin-left: 65px;
     }
     .nav2{
-        margin-left: 690px;
+        margin-left: 770px;
     }
     .text22{
-        margin-left: 85px;
+        margin-left: 65px;
     }
     .section8{
-        margin-left: -625px;
+        margin-left: -740px;
     }
     .modal-content{
         margin-left: -104px;
@@ -843,13 +875,21 @@ padding-left: 75px;
     }
 }
 @media (max-width:380px){
-    .p2-wrap{
+    .burger{
         margin-left: 30px;
+    }
+    .p2-wrap{
+        display: none;
+        left: -25px;
+        margin-top: 40px;
+        position: absolute;
+        background-color: white;
+        width: 180px;
+        height: 75px;
+        padding: 15px 15px 15px 25px;
         flex-direction: column;
         gap: 5px;
-        position: absolute;
         font-size: 12px;
-        top: 30px;
     }
     .logo{
         margin-left: 30px;
@@ -934,12 +974,17 @@ padding-left: 75px;
 }
 @media (max-width:320px){
     .p2-wrap{
-        margin-left: -5px;
+        display: none;
+        left: -85px;
+        margin-top: 40px;
+        position: absolute;
+        background-color: white;
+        width: 180px;
+        height: 75px;
+        padding: 15px 15px 15px 25px;
         flex-direction: column;
         gap: 5px;
-        position: absolute;
         font-size: 12px;
-        top: 30px;
     }
     .logo{
         margin-left: 10px;
@@ -1022,3 +1067,4 @@ padding-left: 75px;
         margin-left: 40px;
     }
 }
+
